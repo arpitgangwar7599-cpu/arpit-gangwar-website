@@ -3,88 +3,71 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#101827">
+<meta name="theme-color" content="#0b1020">
 <meta name="description" content="ARPIT GANGWAR AG — इतिहास, यात्रा, गाँव की जिंदगी, संस्कृति और कैंपस के अनुभव।">
 <title>ARPIT GANGWAR AG | Official Website</title>
 <style>
-:root{--bg:#0b1120;--panel:#121c30;--panel2:#1b2940;--text:#f8fafc;--muted:#b8c4d8;--red:#ef3340;--red2:#ff5964;--line:rgba(255,255,255,.12);--max:1120px}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
-header{position:sticky;top:0;z-index:10;background:rgba(11,17,32,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:11px;font-weight:850;letter-spacing:.04em}.logo{display:grid;place-items:center;width:43px;height:43px;border-radius:13px;background:var(--red);box-shadow:0 8px 28px #ef334044}.logo svg{width:22px;height:22px;fill:white}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:.94rem}.navlinks a:hover{color:#fff}.menu{display:none;background:transparent;color:white;border:1px solid var(--line);border-radius:10px;padding:8px 11px;font-size:1rem}
-.hero{padding:82px 0 66px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 82% 18%,#ef33402a,transparent 38%),radial-gradient(ellipse at 8% 80%,#315a9133,transparent 36%)}.eyebrow{display:inline-flex;gap:8px;align-items:center;padding:7px 12px;border:1px solid #ef334055;border-radius:999px;color:#ffb5ba;font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.dot{width:7px;height:7px;background:var(--red);border-radius:50%}h1{font-size:clamp(2.6rem,7vw,5.5rem);line-height:1.02;letter-spacing:-.055em;margin:22px 0 18px;max-width:850px}.accent{color:var(--red2)}.hero p{max-width:670px;color:var(--muted);font-size:clamp(1rem,2vw,1.18rem);margin:0 0 28px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;justify-content:center;align-items:center;gap:10px;padding:13px 18px;border-radius:12px;font-weight:800;border:1px solid var(--line);transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px)}.primary{background:var(--red);border-color:var(--red);color:white}.primary:hover{background:#d92331}.secondary{background:#ffffff08}.play{width:19px;height:19px;fill:currentColor}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:48px;max-width:650px}.stat{padding:15px 17px;border-left:2px solid var(--red);background:#ffffff06;border-radius:0 12px 12px 0}.stat strong{display:block;font-size:1rem}.stat span{color:var(--muted);font-size:.85rem}
-section{padding:70px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:26px}.kicker{color:var(--red2);font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;font-weight:850}.section-head h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:8px 0 0;letter-spacing:-.035em}.section-head p{color:var(--muted);max-width:430px;margin:0}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.topic{min-height:215px;position:relative;overflow:hidden;border:1px solid var(--line);border-radius:18px;padding:22px;background:linear-gradient(145deg,var(--panel2),var(--panel));transition:transform .2s,border-color .2s}.topic:hover{transform:translateY(-4px);border-color:#ef334088}.topic .num{font-size:.78rem;color:#ff8c95;font-weight:800;letter-spacing:.1em}.topic .icon{font-size:2rem;margin:20px 0 8px}.topic h3{margin:0 0 7px;font-size:1.15rem}.topic p{margin:0;color:var(--muted);font-size:.92rem}.topic:after{content:"";position:absolute;width:100px;height:100px;border-radius:50%;right:-42px;bottom:-48px;background:#ef334015}
-.video-panel{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:stretch}.video-main{padding:clamp(24px,4vw,40px);border:1px solid var(--line);border-radius:22px;background:linear-gradient(140deg,#192944,#111a2c)}.video-main h3{font-size:1.75rem;line-height:1.2;margin:12px 0}.video-main p{color:var(--muted)}.video-side{display:grid;gap:14px}.mini{display:flex;gap:15px;align-items:center;padding:19px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}.mini-icon{flex:0 0 52px;height:52px;display:grid;place-items:center;background:#ef33401c;border-radius:14px;font-size:1.45rem}.mini h4{margin:0 0 3px}.mini p{margin:0;color:var(--muted);font-size:.9rem}
-.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px;align-items:center}.about-mark{min-height:280px;border:1px solid var(--line);border-radius:24px;background:radial-gradient(circle at 50% 35%,#ef334044,transparent 42%),linear-gradient(145deg,#17243a,#0e1728);display:grid;place-items:center;text-align:center;padding:24px}.about-mark .big{font-size:clamp(2.8rem,7vw,5rem);font-weight:950;letter-spacing:-.08em}.about-mark small{letter-spacing:.22em;color:#ff9da4}.about-copy h2{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.15;margin:8px 0 16px}.about-copy p{color:var(--muted)}.note{font-size:.87rem;color:#93a5bf!important;border-left:2px solid var(--red);padding-left:13px}
-.cta{padding:36px;border-radius:24px;background:linear-gradient(110deg,#e52b39,#a91428);display:flex;align-items:center;justify-content:space-between;gap:22px}.cta h2{font-size:clamp(1.7rem,4vw,2.5rem);margin:0 0 6px;line-height:1.15}.cta p{margin:0;color:#ffe1e4}.cta .btn{background:white;color:#a91428;border-color:white;white-space:nowrap}
+:root{--bg:#090e1b;--panel:#111b30;--panel2:#192844;--text:#f8fafc;--muted:#bac6d9;--red:#f02d43;--pink:#ff7b8a;--line:rgba(255,255,255,.13);--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6;overflow-x:hidden}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(9,14,27,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:.035em}.logo{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:linear-gradient(145deg,#ff596d,#bf102b);box-shadow:0 8px 28px #ef334055, inset 0 1px 0 #ffffff66}.logo svg{width:22px;height:22px;fill:white}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:.94rem}.navlinks a:hover{color:white}.menu{display:none;background:transparent;color:white;border:1px solid var(--line);border-radius:10px;padding:8px 11px;font-size:1rem}
+.hero{position:relative;isolation:isolate;padding:76px 0 68px;overflow:hidden;background:radial-gradient(ellipse at 78% 24%,#ef334033,transparent 34%),radial-gradient(ellipse at 10% 80%,#315a9140,transparent 38%),linear-gradient(135deg,#0b1222,#101b30 58%,#160e22)}.hero:before,.hero:after{content:"";position:absolute;z-index:-1;border:1px solid #ffffff13;border-radius:30px;transform:rotate(-22deg);animation:float 9s ease-in-out infinite}.hero:before{width:320px;height:210px;right:-80px;top:20px;box-shadow:0 0 60px #ed2e4520,inset 0 0 55px #ed2e4510}.hero:after{width:200px;height:150px;right:13%;bottom:-95px;animation-delay:-4s}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:34px}.eyebrow{display:inline-flex;gap:8px;align-items:center;padding:7px 12px;border:1px solid #ff657755;border-radius:999px;color:#ffb8c0;font-size:.76rem;font-weight:850;letter-spacing:.11em;text-transform:uppercase}.dot{width:7px;height:7px;background:var(--red);border-radius:50%;box-shadow:0 0 12px var(--red)}h1{font-size:clamp(2.8rem,6vw,5.5rem);line-height:.99;letter-spacing:-.06em;margin:22px 0 18px}.accent{color:var(--pink);text-shadow:0 0 30px #ff596d35}.hero p{max-width:650px;color:var(--muted);font-size:clamp(1rem,2vw,1.16rem);margin:0 0 28px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;justify-content:center;align-items:center;gap:10px;padding:13px 18px;border-radius:12px;font-weight:850;border:1px solid var(--line);transition:transform .2s,box-shadow .2s,background .2s}.btn:hover{transform:translateY(-3px);box-shadow:0 12px 25px #0005}.primary{background:linear-gradient(135deg,#ff465d,#d81935);border-color:#ff6678;color:white}.secondary{background:#ffffff08}.play{width:19px;height:19px;fill:currentColor}
+.banner-art{position:relative;min-height:340px;display:grid;place-items:center;perspective:900px}.banner-card{width:min(100%,420px);aspect-ratio:1.18/1;border:1px solid #ffffff24;border-radius:28px;padding:25px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;transform:rotateY(-11deg) rotateX(5deg);background:linear-gradient(145deg,#263754dd,#111a2ddd 62%,#431a30dd);box-shadow:24px 30px 70px #0008,inset 0 1px 0 #ffffff30;animation:cardfloat 6s ease-in-out infinite}.banner-card:before{content:"";position:absolute;inset:-50%;background:linear-gradient(110deg,transparent 35%,#ffffff0c 45%,#ffffff35 50%,transparent 60%);transform:translateX(-55%) rotate(15deg);animation:shine 7s ease-in-out infinite}.banner-top,.banner-bottom{position:relative;z-index:1;display:flex;justify-content:space-between;align-items:center;gap:12px}.ag-mark{font-size:clamp(4rem,9vw,7rem);font-weight:1000;letter-spacing:-.1em;line-height:1;text-shadow:0 10px 30px #0007}.banner-title{font-weight:950;letter-spacing:.06em;font-size:1.1rem}.banner-sub{font-size:.75rem;letter-spacing:.18em;color:#cbd5e1}.banner-chip{border:1px solid #ffffff35;background:#ffffff0d;border-radius:999px;padding:7px 10px;font-size:.73rem}.banner-orb{position:absolute;width:115px;height:115px;right:6%;top:6%;border-radius:50%;background:radial-gradient(circle at 30% 25%,#ffb7bf,#ef3340 42%,#5b122e 78%);filter:drop-shadow(0 18px 28px #ef334044);opacity:.82;animation:orb 8s ease-in-out infinite}.banner-line{position:absolute;left:0;bottom:18%;width:150px;height:2px;background:linear-gradient(90deg,transparent,#ff6577,transparent);transform:rotate(-25deg)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:42px;max-width:700px}.stat{padding:14px 16px;border-left:2px solid var(--red);background:#ffffff07;border-radius:0 12px 12px 0}.stat strong{display:block;font-size:.97rem}.stat span{color:var(--muted);font-size:.84rem}
+section{padding:72px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:27px}.kicker{color:var(--pink);font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;font-weight:900}.section-head h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:8px 0 0;letter-spacing:-.04em}.section-head p{color:var(--muted);max-width:440px;margin:0}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.topic{min-height:215px;position:relative;overflow:hidden;border:1px solid var(--line);border-radius:18px;padding:22px;background:linear-gradient(145deg,var(--panel2),var(--panel));transition:transform .25s,border-color .25s,box-shadow .25s;transform-style:preserve-3d}.topic:hover{transform:translateY(-7px) rotateX(2deg) rotateY(-2deg);border-color:#ef334099;box-shadow:0 20px 35px #0004}.topic .num{font-size:.76rem;color:#ff9ba7;font-weight:850;letter-spacing:.1em}.topic .icon{font-size:2rem;margin:20px 0 8px;filter:drop-shadow(0 8px 10px #0004)}.topic h3{margin:0 0 7px;font-size:1.12rem}.topic p{margin:0;color:var(--muted);font-size:.91rem}.topic:after{content:"";position:absolute;width:115px;height:115px;border-radius:50%;right:-50px;bottom:-55px;background:#ef334018}
+.video-frame{position:relative;width:100%;aspect-ratio:16/9;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#111b30;box-shadow:0 24px 55px #0005}.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.video-note{color:var(--muted);font-size:.9rem;margin-top:13px}.video-layout{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:start}.video-info{padding:26px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,#192844,#111a2c)}.video-info h3{font-size:1.5rem;line-height:1.2;margin:12px 0}.video-info p{color:var(--muted)}.video-info .btn{margin-top:8px}.mini{display:flex;gap:14px;align-items:center;padding:18px;margin-bottom:13px;border:1px solid var(--line);border-radius:16px;background:var(--panel);transition:transform .2s}.mini:hover{transform:translateX(4px)}.mini-icon{flex:0 0 50px;height:50px;display:grid;place-items:center;background:#ef33401c;border-radius:14px;font-size:1.4rem}.mini h4{margin:0 0 3px}.mini p{margin:0;color:var(--muted);font-size:.88rem}
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px;align-items:center}.about-mark{min-height:280px;border:1px solid var(--line);border-radius:24px;background:radial-gradient(circle at 50% 35%,#ef334044,transparent 42%),linear-gradient(145deg,#17243a,#0e1728);display:grid;place-items:center;text-align:center;padding:24px;box-shadow:inset 0 1px 0 #ffffff18}.about-mark .big{font-size:clamp(2.8rem,7vw,5rem);font-weight:1000;letter-spacing:-.09em;text-shadow:0 14px 30px #0007}.about-mark small{letter-spacing:.22em;color:#ff9da4}.about-copy h2{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.15;margin:8px 0 16px}.about-copy p{color:var(--muted)}.note{font-size:.86rem;color:#93a5bf!important;border-left:2px solid var(--red);padding-left:13px}
+.cta{padding:36px;border-radius:24px;background:linear-gradient(110deg,#e52b39,#9f1428);display:flex;align-items:center;justify-content:space-between;gap:22px;box-shadow:0 20px 45px #e52b3925}.cta h2{font-size:clamp(1.7rem,4vw,2.5rem);margin:0 0 6px;line-height:1.15}.cta p{margin:0;color:#ffe1e4}.cta .btn{background:white;color:#a91428;border-color:white;white-space:nowrap}
 footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:.9rem}.foot{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.social{display:flex;gap:18px}.social a:hover{color:white}
-@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}.video-panel,.about{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.navlinks{display:none;position:absolute;top:75px;left:0;right:0;padding:18px;background:#0b1120;border-bottom:1px solid var(--line);flex-direction:column;gap:14px}.navlinks.open{display:flex}.menu{display:block}.hero{padding:62px 0 50px}.stats{margin-top:34px}}
-@media(max-width:480px){.wrap{width:min(var(--max),calc(100% - 26px))}.grid{grid-template-columns:1fr}.topic{min-height:175px}.stats{grid-template-columns:1fr}.stat{display:flex;justify-content:space-between;gap:10px}.cta{padding:25px;align-items:flex-start;flex-direction:column}.brand{font-size:.88rem}.hero{padding-top:50px}section{padding:54px 0}}
+@keyframes float{0%,100%{translate:0 0}50%{translate:0 -18px}}@keyframes cardfloat{0%,100%{transform:rotateY(-11deg) rotateX(5deg) translateY(0)}50%{transform:rotateY(-7deg) rotateX(2deg) translateY(-12px)}}@keyframes shine{0%,40%{transform:translateX(-70%) rotate(15deg)}75%,100%{transform:translateX(70%) rotate(15deg)}}@keyframes orb{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-17px) rotate(8deg)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+@media(max-width:850px){.hero-grid{grid-template-columns:1fr}.banner-art{min-height:300px}.banner-card{width:min(100%,440px)}.grid{grid-template-columns:repeat(2,1fr)}.video-layout,.about{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.navlinks{display:none;position:absolute;top:75px;left:0;right:0;padding:18px;background:#0b1020;border-bottom:1px solid var(--line);flex-direction:column;gap:14px}.navlinks.open{display:flex}.menu{display:block}.hero{padding:55px 0 50px}}
+@media(max-width:480px){.wrap{width:min(var(--max),calc(100% - 26px))}.grid{grid-template-columns:1fr}.topic{min-height:170px}.stats{grid-template-columns:1fr;margin-top:30px}.stat{display:flex;justify-content:space-between;gap:10px}.cta{padding:25px;align-items:flex-start;flex-direction:column}.brand{font-size:.83rem}.hero{padding-top:43px}section{padding:54px 0}.banner-art{min-height:260px}.banner-card{padding:20px}.banner-orb{width:82px;height:82px}}
 </style>
 </head>
 <body>
-<header>
-  <div class="wrap nav">
-    <a class="brand" href="#home" aria-label="ARPIT GANGWAR home">
-      <span class="logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></span>
-      <span>ARPIT GANGWAR <span class="accent">AG</span></span>
-    </a>
-    <nav class="navlinks" id="navlinks" aria-label="Main navigation">
-      <a href="#home">Home</a><a href="#explore">Explore</a><a href="#videos">Videos</a><a href="#about">About</a>
-    </nav>
-    <button class="menu" id="menu" aria-label="Open menu" aria-expanded="false">☰</button>
-  </div>
-</header>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="logo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></span><span>ARPIT GANGWAR <span class="accent">AG</span></span></a>
+<nav class="navlinks" id="navlinks" aria-label="Main navigation"><a href="#home">Home</a><a href="#explore">Explore</a><a href="#videos">Videos</a><a href="#about">About</a></nav>
+<button class="menu" id="menu" aria-label="Open menu" aria-expanded="false">☰</button>
+</div></header>
 <main>
-  <section class="hero" id="home">
-    <div class="wrap">
-      <span class="eyebrow"><span class="dot"></span> Official Channel Website</span>
-      <h1>Stories. Places.<br><span class="accent">History.</span></h1>
-      <p>Welcome to ARPIT GANGWAR AG — भारत के इतिहास, यात्रा, गाँव की जिंदगी, संस्कृति और कैंपस के अनुभवों को जानने का एक नया ठिकाना।</p>
-      <div class="actions">
-        <a class="btn primary" href="https://www.youtube.com/@arpit.g.angwar" target="_blank" rel="noopener"><svg class="play" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg> Watch on YouTube</a>
-        <a class="btn secondary" href="#explore">Explore Website <span aria-hidden="true">↓</span></a>
-      </div>
-      <div class="stats">
-        <div class="stat"><strong>History & Heritage</strong><span>अतीत की कहानियाँ</span></div>
-        <div class="stat"><strong>Travel & Vlogs</strong><span>जगहें और अनुभव</span></div>
-        <div class="stat"><strong>Culture & Campus</strong><span>जीवन और संस्कृति</span></div>
-      </div>
-    </div>
-  </section>
-  <section id="explore">
-    <div class="wrap">
-      <div class="section-head"><div><span class="kicker">Explore</span><h2>Explore My World</h2></div><p>विभिन्न विषयों की कहानियाँ और अनुभव — एक ही जगह।</p></div>
-      <div class="grid">
-        <article class="topic"><span class="num">01 / HISTORY</span><div class="icon" aria-hidden="true">🏛️</div><h3>History & Heritage</h3><p>भारत के इतिहास, स्मारकों और ऐतिहासिक जगहों की खोज।</p></article>
-        <article class="topic"><span class="num">02 / TRAVEL</span><div class="icon" aria-hidden="true">🧭</div><h3>Travel Vlogs</h3><p>नई जगहें, यात्रा के अनुभव और यादगार पल।</p></article>
-        <article class="topic"><span class="num">03 / VILLAGE</span><div class="icon" aria-hidden="true">🌾</div><h3>Village Life</h3><p>गाँव की जिंदगी, परंपराएँ और रोज़मर्रा के दृश्य।</p></article>
-        <article class="topic"><span class="num">04 / CAMPUS</span><div class="icon" aria-hidden="true">🎓</div><h3>Campus & Culture</h3><p>विद्यार्थी जीवन, संस्कृति और सीखने के अनुभव।</p></article>
-      </div>
-    </div>
-  </section>
-  <section id="videos">
-    <div class="wrap">
-      <div class="section-head"><div><span class="kicker">Watch</span><h2>Videos & Stories</h2></div><p>नए वीडियो देखने और चैनल को फॉलो करने के लिए YouTube पर जाएँ।</p></div>
-      <div class="video-panel">
-        <div class="video-main"><span class="eyebrow">▶ YouTube Channel</span><h3>Watch the latest videos on ARPIT GANGWAR AG</h3><p>मेरे वीडियो, व्लॉग और नई कहानियाँ देखने के लिए आधिकारिक चैनल खोलें। चैनल पर उपलब्ध नवीनतम वीडियो वहीं मिलेंगे।</p><a class="btn primary" href="https://www.youtube.com/@arpit.g.angwar/videos" target="_blank" rel="noopener">Browse All Videos ↗</a></div>
-        <div class="video-side">
-          <div class="mini"><div class="mini-icon">🏰</div><div><h4>History & Places</h4><p>ऐतिहासिक जगहों को नए नज़रिए से जानें।</p></div></div>
-          <div class="mini"><div class="mini-icon">📹</div><div><h4>Vlogs & Experiences</h4><p>यात्रा, रोज़मर्रा और खास पलों की झलक।</p></div></div>
-          <div class="mini"><div class="mini-icon">▶️</div><div><h4>Subscribe & Stay Connected</h4><p>नए वीडियो के लिए चैनल पर जुड़ें।</p></div></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="about">
-    <div class="wrap about">
-      <div class="about-mark"><div><div class="big">AG<span class="accent">.</span></div><small>ARPIT GANGWAR</small></div></div>
-      <div class="about-copy"><span class="kicker">About the Creator</span><h2>Hello, welcome to my world.</h2><p>मैं Arpit हूँ। ARPIT GANGWAR AG के माध्यम से मैं इतिहास, यात्रा, संस्कृति, गाँव की जिंदगी और अपने अनुभवों से जुड़ी सामग्री साझा करता हूँ। इस वेबसाइट का उद्देश्य मेरी वीडियो कहानियों और रुचियों को एक ही जगह पर लाना है।</p><p class="note">यह परिचय शुरुआती ड्राफ्ट है। चाहो तो बाद में इसमें अपना असली परिचय, पसंदीदा विषय और संपर्क लिंक जोड़ सकते हो।</p><a class="btn secondary" href="https://www.youtube.com/@arpit.g.angwar" target="_blank" rel="noopener">Visit My Channel ↗</a></div>
-    </div>
-  </section>
-  <section>
-    <div class="wrap"><div class="cta"><div><h2>Let’s explore together.</h2><p>नए वीडियो और कहानियों के लिए ARPIT GANGWAR AG से जुड़ें।</p></div><a class="btn" href="https://www.youtube.com/@arpit.g.angwar" target="_blank" rel="noopener">Open YouTube Channel ↗</a></div></div>
-  </section>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div>
+<span class="eyebrow"><span class="dot"></span> Official Channel Website</span>
+<h1>Stories. Places.<br><span class="accent">History.</span></h1>
+<p>Welcome to ARPIT GANGWAR AG — भारत के इतिहास, यात्रा, गाँव की जिंदगी, संस्कृति और कैंपस के अनुभवों को जानने का एक नया ठिकाना।</p>
+<div class="actions"><a class="btn primary" href="https://www.youtube.com/@arpit.g.angwar" target="_blank" rel="noopener"><svg class="play" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg> Watch on YouTube</a><a class="btn secondary" href="#explore">Explore Website ↓</a></div>
+<div class="stats"><div class="stat"><strong>History & Heritage</strong><span>अतीत की कहानियाँ</span></div><div class="stat"><strong>Travel & Vlogs</strong><span>जगहें और अनुभव</span></div><div class="stat"><strong>Culture & Campus</strong><span>जीवन और संस्कृति</span></div></div>
+</div>
+<div class="banner-art" aria-label="Animated ARPIT GANGWAR AG banner">
+<div class="banner-orb"></div><div class="banner-line"></div>
+<div class="banner-card">
+<div class="banner-top"><span class="banner-chip">OFFICIAL • YOUTUBE</span><span class="banner-chip">AG / 01</span></div>
+<div><div class="ag-mark">AG<span class="accent">.</span></div><div class="banner-title">ARPIT GANGWAR</div><div class="banner-sub">EXPLORE • LEARN • DISCOVER</div></div>
+<div class="banner-bottom"><span class="banner-chip">HISTORY</span><span class="banner-chip">TRAVEL</span><span class="banner-chip">VLOGS</span></div>
+</div></div>
+</div></section>
+<section id="explore"><div class="wrap">
+<div class="section-head"><div><span class="kicker">Explore</span><h2>Explore My World</h2></div><p>विभिन्न विषयों की कहानियाँ और अनुभव — एक ही जगह।</p></div>
+<div class="grid">
+<article class="topic"><span class="num">01 / HISTORY</span><div class="icon">🏛️</div><h3>History & Heritage</h3><p>भारत के इतिहास, स्मारकों और ऐतिहासिक जगहों की खोज।</p></article>
+<article class="topic"><span class="num">02 / TRAVEL</span><div class="icon">🧭</div><h3>Travel Vlogs</h3><p>नई जगहें, यात्रा के अनुभव और यादगार पल।</p></article>
+<article class="topic"><span class="num">03 / VILLAGE</span><div class="icon">🌾</div><h3>Village Life</h3><p>गाँव की जिंदगी, परंपराएँ और रोज़मर्रा के दृश्य।</p></article>
+<article class="topic"><span class="num">04 / CAMPUS</span><div class="icon">🎓</div><h3>Campus & Culture</h3><p>विद्यार्थी जीवन, संस्कृति और सीखने के अनुभव।</p></article>
+</div></div></section>
+<section id="videos"><div class="wrap">
+<div class="section-head"><div><span class="kicker">Watch</span><h2>Latest from YouTube</h2></div><p>यहाँ YouTube चैनल की अपलोड प्लेलिस्ट एम्बेड है। वीडियो YouTube से लोड होंगे।</p></div>
+<div class="video-layout">
+<div><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=UUsY_u2YOzAOK4gm85O9DEpQ" title="ARPIT GANGWAR AG YouTube uploads" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><p class="video-note">अगर प्लेलिस्ट में वीडियो न दिखें, तो नीचे दिए गए बटन से चैनल के Videos टैब पर जाएँ।</p></div>
+<div><div class="video-info"><span class="eyebrow">▶ Watch & Subscribe</span><h3>New stories, straight from the channel.</h3><p>नए व्लॉग, यात्राएँ और वीडियो देखने के लिए आधिकारिक YouTube चैनल खोलें।</p><a class="btn primary" href="https://www.youtube.com/@arpit.g.angwar/videos" target="_blank" rel="noopener">Browse All Videos ↗</a></div>
+<div style="height:14px"></div><a class="mini" href="https://www.youtube.com/@arpit.g.angwar" target="_blank" rel="noopener"><div class="mini-icon">▶️</div><div><h4>ARPIT GANGWAR AG</h4><p>चैनल खोलें और Subscribe करें ↗</p></div></a>
+<a class="mini" href="https://www.youtube.com/@arpit.g.angwar/shorts" target="_blank" rel="noopener"><div class="mini-icon">📱</div><div><h4>YouTube Shorts</h4><p>Short videos देखने के लिए ↗</p></div></a>
+</div></div></div></section>
+<section id="about"><div class="wrap about">
+<div class="about-mark"><div><div class="big">AG<span class="accent">.</span></div><small>ARPIT GANGWAR</small></div></div>
+<div class="about-copy"><span class="kicker">About the Creator</span><h2>Hello, welcome to my world.</h2><p>मैं Arpit हूँ। ARPIT GANGWAR AG के माध्यम से मैं इतिहास, यात्रा, संस्कृति, गाँव की जिंदगी और अपने अनुभवों से जुड़ी सामग्री साझा करता हूँ। इस वेबसाइट का उद्देश्य मेरी वीडियो कहानियों और रुचियों को एक ही जगह पर लाना है।</p><p class="note">यह परिचय शुरुआती ड्राफ्ट है। बाद में इसमें अपना पसंदीदा परिचय और सोशल मीडिया लिंक जोड़ सकते हो।</p><a class="btn secondary" href="https://www.youtube.com/@arpit.g.angwar" target="_blank" rel="noopener">Visit My Channel ↗</a></div>
+</div></section>
+<section><div class="wrap"><div class="cta"><div><h2>Let’s explore together.</h2><p>नए वीडियो और कहानियों के लिए ARPIT GANGWAR AG से जुड़ें।</p></div><a class="btn" href="https://www.youtube.com/@arpit.g.angwar" target="_blank" rel="noopener">Open YouTube Channel ↗</a></div></div></section>
 </main>
 <footer><div class="wrap foot"><span>© <span id="year"></span> ARPIT GANGWAR AG. All rights reserved.</span><div class="social"><a href="https://www.youtube.com/@arpit.g.angwar" target="_blank" rel="noopener">YouTube</a><a href="https://www.youtube.com/@arpit.g.angwar/videos" target="_blank" rel="noopener">Videos</a><a href="#home">Back to top ↑</a></div></div></footer>
 <script>
@@ -93,5 +76,4 @@ menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.
 nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='☰'}));
 document.getElementById('year').textContent=new Date().getFullYear();
 </script>
-</body>
-</html>
+</body></html>
