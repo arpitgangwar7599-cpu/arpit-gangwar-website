@@ -93,6 +93,38 @@ section{padding:72px 0}.section-head{display:flex;justify-content:space-between;
 #gita-page .verse{padding:15px}
 #gita-page .hero{padding-top:32px}
 </style>
+
+<style id="sanskritgyanam-redesign">
+/* Sanskritज्ञानम् visual refresh: luminous manuscript-inspired palette */
+:root{--bg:#090f1f;--ink:#fffaf0;--muted:#c9d4e8;--glass:#ffffff0b;--line:#ffffff24;--pink:#ff6b8a;--orange:#ffad5c;--cyan:#5de6d0;--purple:#b29aff;--lime:#d7f78a;--yellow:#ffe19a;--max:1200px}
+body{background:#090f1f;color:var(--ink);font-family:Inter,"Noto Sans Devanagari",system-ui,sans-serif}
+body:before{background:radial-gradient(ellipse at 5% 8%,#ffad5c25,transparent 30%),radial-gradient(ellipse at 92% 14%,#5de6d020,transparent 27%),radial-gradient(ellipse at 75% 90%,#b29aff1e,transparent 32%),linear-gradient(135deg,#090f1f 0%,#111b35 52%,#0b2430 100%)}
+header{background:#091126dc;border-bottom:1px solid #ffe19a35;box-shadow:0 8px 30px #02061745}
+.brand{letter-spacing:0!important;font-size:1.04rem}.logo{border-radius:50%;background:linear-gradient(135deg,#ffe19a,#ffad5c 45%,#ff6b8a);box-shadow:0 0 0 5px #ffe19a12,0 8px 32px #ffad5c38}.logo svg{display:none}.logo:after{content:"ॐ";font-family:serif;font-size:1.6rem;color:#20152a;font-weight:900}
+.navlinks a{transition:color .2s,transform .2s}.navlinks a:hover{color:var(--yellow);transform:translateY(-1px)}
+.hero{padding-top:84px;padding-bottom:78px}.hero:before{width:500px;height:500px;right:-100px;top:-170px;background:conic-gradient(from 20deg,#ffe19a,#ffad5c,#ff6b8a,#b29aff,#5de6d0,#ffe19a);filter:blur(78px);opacity:.2}
+.hero:after{content:"ॐ";position:absolute;z-index:-1;right:3%;top:9%;font-family:serif;font-size:clamp(9rem,20vw,18rem);line-height:1;color:#ffe19a0a;pointer-events:none;transform:rotate(-8deg)}
+.pill{border-color:#ffe19a70;background:linear-gradient(100deg,#ffad5c1c,#ff6b8a14);color:#ffe5b4;letter-spacing:.07em}
+.pulse{background:var(--cyan);box-shadow:0 0 15px var(--cyan)}
+h1{letter-spacing:-.045em;line-height:1.06}.rainbow-text{background:linear-gradient(100deg,#ffe19a 0%,#ffad5c 28%,#ff6b8a 52%,#b29aff 75%,#5de6d0 100%);background-size:220% auto}
+.hero p{color:#d4dced}.btn{border-radius:999px;padding:13px 21px;box-shadow:0 7px 24px #02061726}.primary{background:linear-gradient(105deg,#ffe19a,#ffad5c,#ff8b85);color:#21152b}.secondary{background:#ffffff0a;border-color:#ffffff30}.secondary:hover{border-color:#5de6d0}
+.art{min-height:420px}.orbit{width:340px;height:340px;border-color:#ffe19a55}.art-card{border-radius:32px;border-color:#ffe19a55;background:linear-gradient(145deg,#fff4d923,#ffffff08 55%,#5de6d012);box-shadow:0 28px 90px #02061780,inset 0 1px 0 #fff7;transform:rotateY(-5deg) rotateX(2deg)}.ag{font-size:clamp(4.5rem,9vw,6.7rem);background:linear-gradient(120deg,#ffe19a,#ffad5c,#ff6b8a,#b29aff,#5de6d0);color:transparent;background-clip:text;-webkit-background-clip:text}.tag{border-color:#ffe19a40;background:#09112670}
+.quick div{border-radius:17px;background:linear-gradient(145deg,#ffffff0e,#ffffff04);border-color:#ffffff24;transition:transform .2s,border-color .2s}.quick div:hover{transform:translateY(-4px);border-color:#5de6d077}.quick strong{color:#fff0c8}
+section{scroll-margin-top:88px}.section-head h2{color:#fff5df}.eyebrow{background:linear-gradient(90deg,#ffe19a,#ffad5c,#5de6d0);color:transparent;background-clip:text}
+.cards{gap:18px}.card{border-radius:24px;border-color:#ffffff24;background:linear-gradient(145deg,#ffffff12,#ffffff04);box-shadow:0 12px 30px #02061720;min-height:235px}.card:before{width:190px;height:190px;right:-80px;bottom:-95px;opacity:.22}.card:hover{border-color:#ffe19a80;box-shadow:0 24px 48px #02061766}.card h3{color:#fff4dc}.card-read{color:var(--cyan);font-weight:800}
+.gallery-item{border-radius:22px;border-color:#ffffff2b;box-shadow:0 15px 38px #0206174a}.gallery-item:hover,.gallery-item:focus-visible{border-color:#ffe19a;box-shadow:0 22px 50px #02061780}.gallery-item:after{background:linear-gradient(transparent,#07101fed)}
+.video-frame{border-radius:25px;border-color:#ffe19a38;box-shadow:0 25px 60px #02061775}.video-box{border-radius:25px;background:linear-gradient(135deg,#ffad5c20,#ff6b8a15,#b29aff1a,#5de6d012);border-color:#ffffff30}.mini{border-radius:18px}.mini-icon{border-radius:16px;background:linear-gradient(140deg,#ffe19a26,#5de6d026)}
+.about-art{border-radius:30px;border-color:#ffe19a35;background:radial-gradient(circle at 25% 25%,#ffad5c38,transparent 38%),radial-gradient(circle at 75% 75%,#5de6d02c,transparent 40%),#ffffff07}.about-art:after{content:"✺";position:absolute;font-size:15rem;color:#ffe19a0b;pointer-events:none}.about-copy h2{color:#fff2d8}
+.cta{border-radius:30px;border-color:#ffe19a40;background:linear-gradient(110deg,#ffad5c22,#ff6b8a1b,#5de6d018,#b29aff22);box-shadow:0 22px 60px #02061755}.cta h2{color:#fff2d8}footer{border-color:#ffe19a26}
+/* Keep the Gita study area legible while matching the new palette. */
+#gita-page{--bg:#090f1f;--panel:#111b35;--line:#ffffff25;--ink:#fffaf0;--muted:#c9d4e8;--gold:#ffe19a;--cyan:#5de6d0;--pink:#ff6b8a}
+#gita-page .chapter-head{border-color:#ffe19a35;background:linear-gradient(120deg,#ffad5c1b,#5de6d014)}
+#gita-page .verse{border-radius:20px;border-color:#ffffff25;background:linear-gradient(145deg,#ffffff10,#ffffff04)}
+#gita-page .sanskrit{color:#fff0c9}
+@media(max-width:850px){.hero{padding-top:55px}.hero:after{right:-3%;top:15%;font-size:10rem}.art{min-height:340px}.orbit{width:285px;height:285px}}
+@media(max-width:500px){.brand{font-size:.88rem}.hero{padding-top:45px}.hero:after{font-size:8rem;top:16%;right:0}.art{min-height:300px}.art-card{border-radius:25px}.btn{padding:12px 16px}}
+</style>
+
 </head>
 <body>
 <header><div class="wrap nav">
@@ -102,7 +134,7 @@ section{padding:72px 0}.section-head{display:flex;justify-content:space-between;
 <main>
 <section class="hero" id="home"><div class="wrap hero-grid">
 <div><span class="pill"><span class="pulse"></span> Official Channel Website</span>
-<h1>Stories.<br>Places.<br><span class="rainbow-text">History.</span></h1>
+<h1>संस्कृतम्।<br>संस्कृतिः।<br><span class="rainbow-text">ज्ञानम्।</span></h1>
 <p>संस्कृतज्ञानम् में आपका स्वागत है — संस्कृत साहित्य, भारतीय ज्ञान-परंपरा, इतिहास और संस्कृति से जुड़ी सामग्री।</p>
 <div class="actions"><a class="btn primary" href="https://www.youtube.com/@arpit.g.angwar" target="_blank" rel="noopener"><svg class="play" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg> Watch on YouTube</a><a class="btn secondary" href="#explore">Explore Website ↓</a><a class="btn secondary" href="#gita-page">📖 भगवद्गीता पढ़ें</a></div>
 <div class="quick"><div><strong>History & Heritage</strong><span>अतीत की कहानियाँ</span></div><div><strong>Travel & Vlogs</strong><span>नई जगहें</span></div><div><strong>Culture & Campus</strong><span>नए अनुभव</span></div></div>
