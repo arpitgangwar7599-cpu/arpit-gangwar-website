@@ -88,12 +88,10 @@ section{padding:72px 0}.section-head{display:flex;justify-content:space-between;
 #gita-page .small{font-size:.83rem;color:var(--muted)}
 #gita-page button{cursor:pointer;background:#45d9e8;color:#101426;border:0;border-radius:10px;padding:10px 14px;font:inherit;font-weight:850}
 #gita-page .topbtn{position:fixed;bottom:16px;right:16px;box-shadow:0 5px 25px #0008}
-@media(max-width:600px){
-#gita-page .controls{grid-template-columns:1fr}
+@media(max-width:600px){.controls{grid-template-columns:1fr}
 #gita-page .sanskrit{font-size:1.03rem}
 #gita-page .verse{padding:15px}
 #gita-page .hero{padding-top:32px}
-}
 </style>
 
 <style id="sanskritgyanam-redesign">
@@ -125,6 +123,45 @@ section{scroll-margin-top:88px}.section-head h2{color:#fff5df}.eyebrow{backgroun
 #gita-page .sanskrit{color:#fff0c9}
 @media(max-width:850px){.hero{padding-top:55px}.hero:after{right:-3%;top:15%;font-size:10rem}.art{min-height:340px}.orbit{width:285px;height:285px}}
 @media(max-width:500px){.brand{font-size:.88rem}.hero{padding-top:45px}.hero:after{font-size:8rem;top:16%;right:0}.art{min-height:300px}.art-card{border-radius:25px}.btn{padding:12px 16px}}
+</style>
+
+
+<style id="white-gold-site-theme">
+:root{--ink:#17233d;--muted:#53627a;--bg:#fffdf8;--glass:#ffffff;--line:#e7dfd2;--pink:#d94873;--orange:#b77a20;--cyan:#198e9d;--purple:#7654bd;--lime:#5b8e38;--yellow:#c28b2c;--max:1200px}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{background:#fffdf8!important;color:#17233d!important;font-family:Inter,"Noto Sans Devanagari",system-ui,sans-serif}
+body:before{background:radial-gradient(ellipse at 8% 10%,#f4dfbf55,transparent 30%),radial-gradient(ellipse at 92% 15%,#dceaf755,transparent 28%),linear-gradient(145deg,#fffefa,#f7f3eb 58%,#eef4f5)!important;opacity:1}
+header{background:#ffffffed!important;border-bottom:1px solid #e7dfd2!important;box-shadow:0 8px 30px #17233d0d}
+.brand{color:#14213d!important}.logo{border-radius:50%!important;background:linear-gradient(135deg,#f5d89a,#b77a20)!important;box-shadow:0 5px 20px #b77a2025!important}.logo svg{fill:#fff!important}
+.navlinks{color:#36445c!important}.navlinks a:hover{color:#a56c16!important}.menu{color:#17233d!important;border-color:#d9cbb5!important}
+.hero{padding-top:65px!important;padding-bottom:58px!important}.hero:before{opacity:.13!important;filter:blur(90px)!important}.hero:after{color:#b77a2010!important}
+.pill{background:#fff8e9!important;border-color:#d9b46c!important;color:#805517!important}.pulse{background:#3f9e83!important;box-shadow:0 0 12px #3f9e8344!important}
+h1,.section-head h2,.about-copy h2,.cta h2{color:#14213d!important}.rainbow-text,.ag{background:linear-gradient(100deg,#14213d 0%,#9a6418 50%,#d6a94f 100%)!important;color:transparent!important;background-clip:text!important;-webkit-background-clip:text!important}
+.hero p,.section-head p,.card p,.quick span,.about-copy p,.video-box p,.video-note,.mini p,.cta p,footer,.note{color:#53627a!important}
+.btn{box-shadow:0 5px 18px #17233d0d!important;border-color:#dfd3c0!important}.primary{background:linear-gradient(105deg,#b77a20,#e2b65c)!important;color:#fff!important;border:0!important}.secondary{background:#fff!important;color:#17233d!important;border-color:#d8c5a4!important}.secondary:hover{border-color:#b77a20!important}
+.art-card{background:linear-gradient(145deg,#ffffffed,#fff9ef)!important;border-color:#e6d3ad!important;box-shadow:0 25px 65px #17233d14,inset 0 1px 0 #fff!important}.tag{color:#34415a!important;background:#fff9ee!important;border-color:#e4d5b8!important}.art-sub{color:#68748a!important}.orbit{border-color:#b77a2040!important}.orb{opacity:.6}.orb2{opacity:.65}
+.quick div{background:#ffffffd9!important;border-color:#e7dfd2!important;box-shadow:0 7px 24px #17233d08}.quick strong{color:#17233d!important}
+.cards{gap:18px!important}.card{background:linear-gradient(145deg,#fff,#fffaf1)!important;border-color:#e7dfd2!important;box-shadow:0 10px 28px #17233d0b!important}.card h3{color:#17233d!important}.card:hover{border-color:#d3ad65!important;box-shadow:0 18px 35px #17233d14!important}.card:before{opacity:.10!important}.card-read{color:#9b671b!important}
+.gallery-section{background:linear-gradient(180deg,#fffdf8,#f5f0e7)!important;border-top:1px solid #eadfcf;border-bottom:1px solid #eadfcf}.gallery-head h2{color:#17233d!important}.gallery-head p{color:#53627a!important}.gallery-item{border-color:#e2d7c6!important;box-shadow:0 10px 25px #17233d14!important}.gallery-item:after{background:linear-gradient(transparent,#17233dcc)!important}.gallery-modal{background:#17233df0!important}
+.video-frame{border-color:#e5d8c3!important;box-shadow:0 18px 40px #17233d12!important}.video-box{background:linear-gradient(135deg,#fff5e5,#f4f0ff,#effafa)!important;border-color:#e7dfd2!important}.mini{background:#ffffffd9!important;border-color:#e7dfd2!important}.mini h4{color:#17233d!important}.mini-icon{background:linear-gradient(140deg,#f6e6c8,#e5f3f4)!important}
+.about-art{background:radial-gradient(circle at 25% 25%,#f3d8a8aa,transparent 38%),radial-gradient(circle at 75% 75%,#c9e8e7aa,transparent 40%),#fff!important;border-color:#e7dfd2!important}.cta{background:linear-gradient(110deg,#fff3dc,#fff,#edf7f7)!important;border-color:#e3d4b7!important;box-shadow:0 15px 40px #17233d0c!important}footer{border-color:#e7dfd2!important}.social a:hover{color:#9b671b!important}
+/* Gita study area: visible, readable and styled for the white theme */
+#gita-page{background:linear-gradient(180deg,#fffdf8,#f7f0e3)!important;color:#17233d!important;scroll-margin-top:82px}
+#gita-page .hero{background:transparent!important;padding:38px 0 25px!important}
+#gita-page .hero h1{color:#17233d!important;background:linear-gradient(90deg,#8d5a13,#d1a34e)!important;color:transparent!important;background-clip:text!important;-webkit-background-clip:text!important}
+#gita-page .hero p,#gita-page .status,#gita-page .small,#gita-page .chapter-head p,#gita-page .footer{color:#53627a!important}
+#gita-page .stats span,#gita-page .controls,#gita-page .chapter-head,#gita-page .verse{background:#ffffffd9!important;border-color:#e5d8c3!important;box-shadow:0 8px 24px #17233d08}
+#gita-page .chapter-head h2{color:#8d5a13!important}
+#gita-page .field label{color:#17233d!important}
+#gita-page .field select,#gita-page .field input{background:#fff!important;color:#17233d!important;border-color:#d8cbb8!important}
+#gita-page .verse-top{color:#946218!important}
+#gita-page .sanskrit{color:#302b25!important}
+#gita-page .meaning{border-color:#e7dfd2!important;color:#33445c!important}
+#gita-page .meaning strong{color:#137f89!important}
+#gita-page button{background:linear-gradient(105deg,#b77a20,#e2b65c)!important;color:#fff!important}
+#gita-page .topbtn{position:fixed;bottom:16px;right:16px;z-index:30}
+@media(max-width:850px){.hero{padding-top:45px!important}.art{min-height:320px!important}.cards{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:600px){#gita-page .controls{grid-template-columns:1fr!important}.hero{padding-top:42px!important}.cards{grid-template-columns:1fr!important}}
 </style>
 
 </head>
@@ -300,11 +337,11 @@ section{scroll-margin-top:88px}.section-head h2{color:#fff5df}.eyebrow{backgroun
 const menu=document.getElementById('menu'),nav=document.getElementById('navlinks');
 menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'✕':'☰'});
 nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.textContent='☰'}));
-document.querySelectorAll('a[href="#gita-page"]').forEach(a=>a.addEventListener('click',event=>{
-  const target=document.getElementById('gita-page');
-  if(target){event.preventDefault();target.scrollIntoView({behavior:'smooth',block:'start'});history.replaceState(null,'','#gita-page');}
-}));
 document.getElementById('year').textContent=new Date().getFullYear();
+document.querySelectorAll('a[href="#gita-page"]').forEach(link=>link.addEventListener('click',event=>{
+ const target=document.getElementById('gita-page');if(target){event.preventDefault();target.scrollIntoView({behavior:'smooth',block:'start'});history.replaceState(null,'','#gita-page');}
+}));
+
 
 const galleryModal=document.getElementById('galleryModal');
 const galleryModalImage=document.getElementById('galleryModalImage');
@@ -318,7 +355,7 @@ document.addEventListener('keydown',event=>{if(event.key==='Escape'&&galleryModa
 
 </script>
 
-<section id="gita-page" style="padding:24px 0; background:#101426; color:#f7f7ff;">
+<section id="gita-page" style="padding:24px 0; background:#fffdf8; color:#14213d;">
 
 <section class="hero"><div class="om">ॐ</div><h1>श्रीमद्भगवद्गीता</h1><p>सभी 18 अध्याय — संस्कृत मूल श्लोक और हिंदी अर्थ के साथ। अध्याय चुनें, श्लोक खोजें और अध्ययन करें।</p><div class="stats"><span>📖 18 अध्याय</span><span>🕉️ लगभग 700 श्लोक</span><span>भाषा: संस्कृत + हिंदी</span></div></section>
 <section class="controls" aria-label="अध्याय और खोज">
@@ -338,8 +375,30 @@ const chapterSelect=document.getElementById('chapter'),searchInput=document.getE
 chapters.forEach(([n,count,name,summary])=>{const o=document.createElement('option');o.value=n;o.textContent=`अध्याय ${n} — ${name} (${count} श्लोक)`;chapterSelect.appendChild(o)});
 function esc(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function getHindi(d){return d?.tej?.ht || d?.rams?.ht || d?.ht || d?.hindi || 'इस श्लोक का हिंदी अर्थ इस स्रोत में उपलब्ध नहीं है।';}
-async function loadChapter(n){loadedChapter=n;const meta=chapters.find(c=>c[0]===n);allVerses=[];versesEl.innerHTML='<div class="empty">श्लोक लोड हो रहे हैं…</div>';infoEl.hidden=false;document.getElementById('chapterTitle').textContent=`अध्याय ${n}: ${meta[2]}`;document.getElementById('chapterSummary').textContent=meta[3];statusEl.textContent=`अध्याय ${n} के ${meta[1]} श्लोक लोड हो रहे हैं…`;
-try{if(!cache[n]){const jobs=Array.from({length:meta[1]},(_,i)=>fetch(`https://vedicscriptures.github.io/slok/${n}/${i+1}`).then(r=>{if(!r.ok)throw new Error('श्लोक लोड नहीं हुआ');return r.json()}));cache[n]=await Promise.all(jobs);}allVerses=cache[n];renderVerses();statusEl.textContent=`अध्याय ${n}: ${allVerses.length} श्लोक उपलब्ध`; }catch(e){versesEl.innerHTML=`<div class="empty">श्लोक लोड नहीं हो पाए। इंटरनेट जाँचकर फिर प्रयास करें।<br><button onclick="loadChapter(${n})">दोबारा प्रयास करें</button><p class="small">डेटा स्रोत: vedicscriptures.github.io</p></div>`;statusEl.textContent='डेटा लोड करने में समस्या हुई।';}}
+async function loadChapter(n){
+ loadedChapter=n;const meta=chapters.find(c=>c[0]===n);allVerses=[];
+ versesEl.innerHTML='<div class="empty">श्लोक लोड हो रहे हैं…</div>';infoEl.hidden=false;
+ document.getElementById('chapterTitle').textContent=`अध्याय ${n}: ${meta[2]}`;
+ document.getElementById('chapterSummary').textContent=meta[3];statusEl.textContent=`अध्याय ${n} के ${meta[1]} श्लोक लोड हो रहे हैं…`;
+ try{
+  if(!cache[n]){
+   const result=[];
+   for(let base=1;base<=meta[1];base+=6){
+    const end=Math.min(base+5,meta[1]);
+    const batch=await Promise.all(Array.from({length:end-base+1},(_,i)=>{
+     const verseNo=base+i;
+     return fetch(`https://vedicscriptures.github.io/slok/${n}/${verseNo}`).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();});
+    }));
+    result.push(...batch);statusEl.textContent=`अध्याय ${n}: ${result.length}/${meta[1]} श्लोक लोड हुए…`;
+   }
+   cache[n]=result;
+  }
+  allVerses=cache[n];renderVerses();statusEl.textContent=`अध्याय ${n}: ${allVerses.length} श्लोक उपलब्ध`;
+ }catch(e){
+  versesEl.innerHTML=`<div class="empty">श्लोक लोड नहीं हो पाए। इंटरनेट जाँचकर फिर प्रयास करें।<br><button onclick="loadChapter(${n})">दोबारा प्रयास करें</button><p class="small">डेटा स्रोत: vedicscriptures.github.io</p></div>`;
+  statusEl.textContent='डेटा लोड करने में समस्या हुई।';
+ }
+}
 function renderVerses(){const q=searchInput.value.trim().toLocaleLowerCase('hi');const filtered=allVerses.filter(d=>{const meaning=getHindi(d);return !q||String(d.slok||'').toLocaleLowerCase('hi').includes(q)||meaning.toLocaleLowerCase('hi').includes(q)||`${d.chapter}.${d.verse}`.includes(q)});if(!filtered.length){versesEl.innerHTML='<div class="empty">इस खोज से कोई श्लोक नहीं मिला। दूसरा शब्द लिखकर देखें।</div>';return;}versesEl.innerHTML=filtered.map(d=>`<article class="verse"><div class="verse-top"><span>अध्याय ${d.chapter} • श्लोक ${d.verse}</span><button onclick="copyVerse(${d.chapter},${d.verse})">श्लोक कॉपी करें</button></div><div class="sanskrit">${esc(d.slok||'श्लोक उपलब्ध नहीं है')}</div><div class="meaning"><strong>हिंदी अर्थ</strong><p>${esc(getHindi(d))}</p></div></article>`).join('');}
 async function copyVerse(ch,vr){const d=(cache[ch]||[]).find(x=>x.verse===vr);if(!d)return;const text=`${d.slok}\n\nहिंदी अर्थ: ${getHindi(d)}`;try{await navigator.clipboard.writeText(text);statusEl.textContent=`श्लोक ${ch}.${vr} कॉपी हो गया।`}catch(e){statusEl.textContent='कॉपी करने के लिए श्लोक को चुनकर कॉपी करें।'}}
 chapterSelect.addEventListener('change',()=>{searchInput.value='';loadChapter(Number(chapterSelect.value))});searchInput.addEventListener('input',renderVerses);loadChapter(1);
